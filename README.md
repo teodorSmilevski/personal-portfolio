@@ -1,18 +1,14 @@
 # My Portfolio Website
 
 ![Portfolio Website](link-to-portfolio-image.png)
+ova da se smeni treba
 
 ## Table of Contents
 
 - [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation and Usage](#installation-and-usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
 - [Contact](#contact)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## About
 
@@ -32,39 +28,9 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 - CSS3 (including Sass for stylesheets)
 - JavaScript (ES6+)
 - React.js
-- Node.js
-- Express.js
-- MongoDB
 - Git/GitHub
-
-## Installation and Usage
-
-To run this website locally:
-
-1. Clone the repository: git clone https://github.com/your-username/your-portfolio.git
-2. Install dependencies: npm install
-3. Start the development server: npm start
-4. Open your browser and visit: http://localhost:3000
-
-## Customization
-
-This website supports customization options such as theme selection, customizable sections, and layout preferences. Refer to the documentation or reach out to me for more details.
-
-## Contributing
-
-I welcome contributions from the community! If you have suggestions, bug fixes, or new features to contribute, please follow the guidelines in the CONTRIBUTING.md file.
 
 ## Contact
 
-- Email: your-email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile/)
-- Twitter: [@your-twitter-handle](https://twitter.com/your-handle)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgements
-
-- Special thanks to [Name of Library/Framework](link-to-library) for their invaluable contributions.
-- Credits to [Name of Template](link-to-template) for the design inspiration.
+- Email: teosmilevski@outlook.com
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/teodor-smilevski-21860221b/)
