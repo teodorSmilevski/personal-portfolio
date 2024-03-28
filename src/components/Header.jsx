@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import Technologies from "./Technologies";
+
 import profilePic from "../assets/personal-picture-NOBG.png";
 import lnLogo from "../assets/ln-logo.png";
 import githubLogo from "../assets/github-logo.png";
@@ -25,7 +25,6 @@ export default function Header() {
           </div>
         </div>
       </main>
-      <Technologies />
     </>
   );
 }
