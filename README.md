@@ -31,4 +31,4 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 ## Contact
 
 - Email: teosmilevski@outlook.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/teodor-smilevski-21860221b/)
+- LinkedIn: [Teodor Smilevski](https://www.linkedin.com/in/teodor-smilevski-21860221b/)
