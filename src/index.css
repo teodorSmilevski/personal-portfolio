@@ -13,16 +13,12 @@
 }
 
 #navbar {
-  /* position: fixed; */
-  /* left: 0px;
-  right: 0px;
-  top: 0px; */
-  /* height: 10vh; */
+  height: 10vh;
+  position: absolute;
   display: grid;
   width: 100%;
-  grid-template-columns: 5fr 2fr;
+  grid-template-columns: 5fr 3fr;
   background-color: #222831;
-  z-index: 1;
 }
 .navbar-links {
   display: flex;
@@ -58,9 +54,6 @@
   width: 100%;
   height: 100vh;
   margin: 0;
-  /* left: 0px;
-  right: 0px;
-  top: 0px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,4 +103,80 @@
   /* bottom: 0; */
   background-color: #3871c7;
   z-index: 1;
+}
+
+/* SECTION: MEDIA QUERY */
+/* TODO: media query za navbarot */
+@media screen and (max-width: 384px) {
+  .header-content > img {
+    width: 150px;
+    height: 150px;
+  }
+  .header-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-text-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .main-text-content p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 385px) and (max-width: 480px) {
+  .header-content > img {
+    width: 200px;
+    height: 200px;
+  }
+  .header-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-text-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .main-text-content p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header-content {
+    width: 70%;
+    grid-template-columns: 1fr;
+  }
+  .header-content > img {
+    display: none;
+  }
+  .main-text-content h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .main-text-content p {
+    font-size: 20px;
+  }
+  .link-logos img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1039px) {
+  .header-content {
+    width: 80%;
+    grid-template-columns: 1fr 3fr;
+  }
+  .header-content > img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1040px) and (max-width: 1460px) {
+  .header-content {
+    width: 70%;
+  }
 }
