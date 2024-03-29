@@ -5,18 +5,21 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+
+  /* NOTE:for debbuging  */
+  /* background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; */
 }
 
-body {
-  /* width: 100vh; */
-}
 #navbar {
-  position: fixed;
+  /* position: fixed; */
   /* left: 0px;
   right: 0px;
   top: 0px; */
   /* height: 10vh; */
   display: grid;
+  width: 100%;
   grid-template-columns: 5fr 2fr;
   background-color: #222831;
   z-index: 1;
@@ -52,8 +55,9 @@ body {
 
 #main-header {
   background-color: #222831;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
+  margin: 0;
   /* left: 0px;
   right: 0px;
   top: 0px; */
