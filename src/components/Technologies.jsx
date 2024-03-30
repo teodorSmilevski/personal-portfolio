@@ -5,10 +5,7 @@ export default function Technologies() {
       PUT 5 ICONS
       CHANGE COLOR - PURPLE??? */}
       <h1>aaaa</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis,
-        omnis!
-      </p>
+      <img src="" alt="" />
     </section>
   );
 }
