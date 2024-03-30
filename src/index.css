@@ -98,11 +98,15 @@
 }
 
 #technologies {
-  /* color: black; */
-  /* position:  */
-  /* bottom: 0; */
-  background-color: #3871c7;
-  z-index: 1;
+  background-color: #31363f;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#technologies img {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
 }
 
 /* SECTION: MEDIA QUERY */
