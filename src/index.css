@@ -109,6 +109,13 @@
   padding: 30px;
 }
 
+/* --- */
+#about-me {
+  background-color: #222831;
+  height: 80vh;
+  width: 100%;
+}
+
 /* SECTION: MEDIA QUERY */
 /* TODO: media query za navbarot */
 @media screen and (max-width: 384px) {
