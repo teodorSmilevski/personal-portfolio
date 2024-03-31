@@ -168,6 +168,10 @@
     width: 50px;
     height: 50px;
   }
+  #technologies img {
+    width: 60px;
+    height: 60px;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1039px) {
   .header-content {
@@ -178,9 +182,17 @@
     width: 250px;
     height: 250px;
   }
+  #technologies img {
+    width: 70px;
+    height: 70px;
+  }
 }
 @media screen and (min-width: 1040px) and (max-width: 1460px) {
   .header-content {
     width: 70%;
+  }
+  #technologies img {
+    width: 80px;
+    height: 80px;
   }
 }
