@@ -3,7 +3,7 @@ export default function AboutMe() {
     <section id="about-me">
       <h1>ALO BELANAC</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum,
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labaorum,
         reprehenderit?
       </p>
     </section>
