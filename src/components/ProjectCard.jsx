@@ -7,7 +7,7 @@ export default function ProjectCard({
   liveLink,
 }) {
   return (
-    <button>
+    <button id="project-card-btn">
       <div id="project-card">
         <img src={image} key={title} alt={title} />
         <div>
