@@ -7,17 +7,19 @@ export default function ProjectCard({
   liveLink,
 }) {
   return (
-    <div id="project-card">
-      <img src={image} key={title} alt={title} />
-      <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <div id="project-card-links">
-          <a href={githubLink}>a</a>
-          <a href={liveLink}>a</a>
+    <button>
+      <div id="project-card">
+        <img src={image} key={title} alt={title} />
+        <div>
+          <h1>{title}</h1>
+          <p>{description}</p>
+          <div id="project-card-links">
+            <a href={githubLink}>a</a>
+            <a href={liveLink}>a</a>
+          </div>
         </div>
       </div>
-    </div>
+    </button>
   );
 }
 

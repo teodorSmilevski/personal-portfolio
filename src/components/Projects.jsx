@@ -14,6 +14,20 @@ export default function Projects() {
         githubLink="link"
         liveLink="link"
       />
+      <ProjectCard
+        image={project1Img}
+        title="Project2"
+        description={descriptions[0]}
+        githubLink="link"
+        liveLink="link"
+      />
+      <ProjectCard
+        image={project1Img}
+        title="Project3"
+        description={descriptions[0]}
+        githubLink="link"
+        liveLink="link"
+      />
     </section>
   );
 }
