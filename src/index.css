@@ -140,7 +140,7 @@
 }
 /* ---- SECTION: PROJECTS*/
 #projects {
-  padding: 30px;
+  padding: 50px;
   background-color: #31363f;
   height: auto;
   display: flex;
@@ -183,6 +183,28 @@
   box-shadow: 0 3px 30px rgba(118, 171, 174, 1);
   background-color: red;
 }
+
+/* SECTION: FOOTER */
+#footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #222831;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#footer img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+#footer > img {
+  width: 100px;
+  height: 100px;
+}
+
 /* SECTION: MEDIA QUERY */
 /* TODO: media query za navbarot */
 @media screen and (max-width: 384px) {
