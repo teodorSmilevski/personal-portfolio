@@ -16,12 +16,12 @@
   position: absolute;
   display: grid;
   width: 100%;
-  grid-template-columns: 5fr 3fr;
+  grid-template-columns: 5fr 5fr 1fr;
   background-color: #222831;
 }
 .navbar-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
 }
 .navbar-logo {
@@ -34,16 +34,21 @@
   width: 50px;
   height: 50px;
 }
+
 #navbar-btn {
   background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
+  padding: 0.8em;
+  border-radius: 10%;
+  width: 8em;
+  border: 1px solid #76abae;
+  color: #76abae;
   cursor: pointer;
-  overflow: hidden;
-  outline: none;
+  transition-duration: 0.4s;
+  z-index: 1;
 }
 #navbar-btn:hover {
-  color: #76abae;
+  color: #ffffff;
+  background-color: #76abae;
 }
 /* ---- SECTION: HEADER */
 
@@ -178,6 +183,7 @@
 #project-card-btn {
   border: 0;
   box-shadow: 0 3px 15px rgba(118, 171, 174, 0.5);
+  cursor: pointer;
 }
 #project-card-btn:hover {
   box-shadow: 0 3px 30px rgba(118, 171, 174, 1);
@@ -208,6 +214,10 @@
 /* SECTION: MEDIA QUERY */
 /* TODO: media query za navbarot */
 @media screen and (max-width: 384px) {
+  #navbar-btn {
+    padding: 0.6em;
+    width: 6em;
+  }
   .header-content > img {
     width: 150px;
     height: 150px;
@@ -244,6 +254,10 @@
   }
 }
 @media screen and (min-width: 385px) and (max-width: 480px) {
+  #navbar-btn {
+    padding: 0.7em;
+    width: 7em;
+  }
   .header-content > img {
     width: 200px;
     height: 200px;

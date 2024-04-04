@@ -7,9 +7,6 @@ export default function NavBar() {
         <img src={logo} alt="ts logo" />
       </div>
       <div className="navbar-links">
-        <NavBarButton name={"Home"} />
-        <NavBarButton name="About" />
-        <NavBarButton name="My Work" />
         <NavBarButton name="Contact" />
       </div>
     </div>
