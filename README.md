@@ -17,14 +17,15 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 - _About Me:_ Learn more about my background, skills, and interests.
 - _Featured Projects:_ Explore my projects with descriptions, technologies used, and links to live demos or GitHub repositories.
 - _Contact:_ Reach out to me for collaborations, inquiries, or feedback.
+- _Fully responsive for all devices
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (including Sass for stylesheets)
+- CSS3
 - JavaScript (ES6+)
-- React.js
-- Git/GitHub
+- JS Framework - React.js
+- Git/GitHub for project management
 
 ## Contact
 
