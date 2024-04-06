@@ -10,7 +10,9 @@
   color: #0f0 !important;
   outline: solid #f00 1px !important; */
 }
-
+.contact {
+  background-color: red;
+}
 #navbar {
   height: 10vh;
   position: absolute;
@@ -99,6 +101,7 @@
   color: #76abae;
   font-weight: 600;
 }
+
 /* SECTION: TECHNOLOGIES */
 #technologies {
   background-color: #31363f;
