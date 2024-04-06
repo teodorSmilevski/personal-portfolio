@@ -1,5 +1,6 @@
 import logo from "../assets/logo-ts-green.png";
 import NavBarButton from "./NavBarButton";
+import Contact from "./Contact";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -18,7 +19,8 @@ export default function NavBar() {
           <NavBarButton name="Contact" onClickBtn={handleBtnClick} />
         </div>
       </div>
-      <div className={isActive ? "contact" : "contact-off"}></div>
+
+      <Contact isActive={isActive} />
     </>
   );
 }
