@@ -9,13 +9,16 @@ export default function NavBar() {
   }
 
   return (
-    <div id="navbar" className={isActive ? "contact" : "undefined"}>
-      <div className="navbar-logo">
-        <img src={logo} alt="ts logo" />
+    <>
+      <div id="navbar">
+        <div className="navbar-logo">
+          <img src={logo} alt="ts logo" />
+        </div>
+        <div className="navbar-links">
+          <NavBarButton name="Contact" onClickBtn={handleBtnClick} />
+        </div>
       </div>
-      <div className="navbar-links">
-        <NavBarButton name="Contact" onClickBtn={handleBtnClick} />
-      </div>
-    </div>
+      <div className={isActive ? "contact" : "contact-off"}></div>
+    </>
   );
 }
