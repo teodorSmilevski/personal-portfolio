@@ -6,6 +6,7 @@
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+
   /* NOTE:for debbuging  */
   /* background: #000 !important;
   color: #0f0 !important;
@@ -84,6 +85,7 @@
   justify-content: start;
   align-items: center;
   margin-left: 20px;
+  pointer-events: none;
 }
 .navbar-logo img {
   width: 50px;
@@ -131,6 +133,7 @@
   height: 300px;
   border-radius: 50%;
   border: 2px solid #76abae;
+  pointer-events: none;
   /* box-shadow: #76abae 0px -12px 30px, #76abae 0px 4px 6px, #76abae 0px 12px 13px,
     #76abae 0px -3px 5px; */
 }
@@ -180,6 +183,7 @@
   width: 100px;
   height: 100px;
   padding: 10px;
+  pointer-events: none;
 }
 
 /* --- SECTION: ABOUT ME*/
@@ -200,6 +204,7 @@
 }
 #about-me img {
   width: 400px;
+  pointer-events: none;
 }
 #about-me h1 {
   margin-bottom: 20px;
@@ -234,6 +239,7 @@
 #project-card img {
   width: 100%;
   height: 100%;
+  pointer-events: none;
 }
 #project-card > div {
   padding: 10px;
@@ -271,6 +277,7 @@
   width: 30px;
   height: 30px;
   padding: 5px;
+  pointer-events: none;
 }
 #footer > img {
   width: 100px;

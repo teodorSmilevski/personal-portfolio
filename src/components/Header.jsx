@@ -19,8 +19,12 @@ export default function Header() {
               in creating interactive and user-friendly web experiences
             </p>
             <div className="link-logos">
-              <img src={lnLogo} alt="linkedin link logo" />
-              <img src={githubLogo} alt="github link logo" />
+              <a href="https://www.linkedin.com/in/teodor-smilevski-21860221b/">
+                <img src={lnLogo} alt="linkedin link logo" />
+              </a>
+              <a href="https://github.com/teodorSmilevski">
+                <img src={githubLogo} alt="github link logo" />
+              </a>
             </div>
           </div>
         </div>

@@ -7,8 +7,12 @@ export default function Footer() {
     <section id="footer">
       <img src={tsLogo} alt="TS logo" />
       <div>
-        <img src={githubLogo} alt="" />
-        <img src={lnLogo} alt="" />
+        <a href="https://www.linkedin.com/in/teodor-smilevski-21860221b/">
+          <img src={lnLogo} alt="linkedin link logo" />
+        </a>
+        <a href="https://github.com/teodorSmilevski">
+          <img src={githubLogo} alt="github link logo" />{" "}
+        </a>
       </div>
     </section>
   );
