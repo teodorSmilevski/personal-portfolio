@@ -16,7 +16,11 @@ export default function NavBar() {
           <img src={logo} alt="ts logo" />
         </div>
         <div className="navbar-links">
-          <NavBarButton name="Contact" onClickBtn={handleBtnClick} />
+          <NavBarButton
+            name={isActive ? "Back" : "Contact"}
+            onClickBtn={handleBtnClick}
+            style={isActive ? "navbar-btn-back" : "navbar-btn"}
+          />
         </div>
       </div>
 
