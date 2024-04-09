@@ -262,7 +262,7 @@
 #project-card-btn {
   border: 0;
   box-shadow: 0 3px 15px rgba(118, 171, 174, 0.5);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 #project-card-btn:hover {
   box-shadow: 0 3px 30px rgba(118, 171, 174, 1);
