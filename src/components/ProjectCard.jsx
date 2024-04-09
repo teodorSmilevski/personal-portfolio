@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import githubLogo from "../assets/github-logo.png";
 export default function ProjectCard({
   image,
   title,
@@ -14,8 +15,16 @@ export default function ProjectCard({
           <h1>{title}</h1>
           <p>{description}</p>
           <div id="project-card-links">
-            <a href={githubLink}>a</a>
-            <a href={liveLink}>a</a>
+            <a href={githubLink}>
+              <img
+                src={githubLogo}
+                alt=""
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+            <a href={liveLink}>
+              <button>Live Demo</button>
+            </a>
           </div>
         </div>
       </div>
