@@ -18,8 +18,12 @@ export default function ProjectCard({
             <a href={githubLink}>
               <img
                 src={githubLogo}
-                alt=""
-                style={{ width: "30px", height: "30px" }}
+                alt="github repo logo"
+                style={{
+                  width: "30px",
+                  height: "30px",
+                  pointerEvents: "none",
+                }}
               />
             </a>
             <a href={liveLink}>
