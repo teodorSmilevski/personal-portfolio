@@ -1,6 +1,4 @@
 import PropTypes from "prop-types";
-import lnLogo from "../assets/ln-logo.png";
-import mailLogo from "../assets/mailLogo.png";
 export default function Contact({ isActive }) {
   const sendEmail = () => {
     window.open(
@@ -16,20 +14,12 @@ export default function Contact({ isActive }) {
         </h1>
 
         <button className="contact-btn mail-btn" onClick={sendEmail}>
-          <img
-            src={mailLogo}
-            alt="email logo logo"
-            style={{ width: "30px", height: "30px" }}
-          />
+          <i className="bx bx-envelope bx-md"></i>
           Send an email!
         </button>
         <a href="https://www.linkedin.com/in/teodor-smilevski-21860221b/">
           <button className="contact-btn msg-btn">
-            <img
-              src={lnLogo}
-              alt="linkedin link logo"
-              style={{ width: "30px", height: "30px" }}
-            />
+            <i className="bx bxl-linkedin-square bx-md "></i>
             Send a message!
           </button>
         </a>

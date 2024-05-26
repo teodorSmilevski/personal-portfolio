@@ -1,8 +1,7 @@
 import NavBar from "./NavBar";
 
 import profilePic from "../assets/personal-picture-NOBG.png";
-import lnLogo from "../assets/ln-logo.png";
-import githubLogo from "../assets/github-logo.png";
+
 export default function Header() {
   return (
     <>
@@ -20,10 +19,10 @@ export default function Header() {
             </p>
             <div className="link-logos">
               <a href="https://www.linkedin.com/in/teodor-smilevski-21860221b/">
-                <img src={lnLogo} alt="linkedin link logo" />
+                <i className="bx bxl-linkedin-square bx-md icon-w"></i>
               </a>
               <a href="https://github.com/teodorSmilevski">
-                <img src={githubLogo} alt="github link logo" />
+                <i className="bx bxl-github bx-md icon-w"></i>
               </a>
             </div>
           </div>

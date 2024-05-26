@@ -179,11 +179,17 @@
   height: auto;
 }
 
-#technologies img {
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  pointer-events: none;
+.icon {
+  padding: 1rem;
+  font-size: 100px;
+  color: #76abae;
+
+  &:hover {
+    color: #3d6e70;
+  }
+}
+.icon-w:hover {
+  color: rgba(255, 255, 255, 0.603);
 }
 
 /* --- SECTION: ABOUT ME*/
