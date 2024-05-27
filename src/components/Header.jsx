@@ -8,7 +8,7 @@ export default function Header() {
       <NavBar />
       <main id="main-header">
         <div className="header-content container">
-          <img src={profilePic} alt="profilePicture" />
+          <img src={profilePic} alt="teodor smilevski" />
           <div className="main-text-content">
             <h1>
               Frontend <span id="react-word">React</span> Developer 👋
@@ -26,6 +26,12 @@ export default function Header() {
               </a>
               <a href="https://github.com/teodorSmilevski" target="_blank">
                 <i className="bx bxl-github bx-md icon-w"></i>
+              </a>
+              <a
+                href="/TeodorSmilevski_CV_EN.pdf"
+                download="TeodorSmilevski_CV_EN.pdf"
+              >
+                <button className="download-cv">Download CV</button>
               </a>
             </div>
           </div>

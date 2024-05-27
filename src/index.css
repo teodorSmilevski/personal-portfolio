@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   color: #eeeeee;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
-  font-style: normal;
   text-decoration: none;
+}
+::selection {
+  color: #222831;
+  background: #76abae;
 }
 .container {
   width: 1536px;
@@ -41,7 +44,6 @@
   flex-direction: column;
   gap: 20px;
   height: 100vh;
-  /* TODO: ova e beloto sho izlegva ne fakja */
 }
 .contact-btn {
   padding: 10px;
@@ -163,11 +165,23 @@
 .main-text-content p {
   font-size: 20px;
 }
-.link-logos img {
-  width: 30px;
-  height: 30px;
-  border: 0;
-  margin: 5px;
+.link-logos {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.download-cv {
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #3d6e70;
+  border-radius: 5rem;
+
+  &:hover {
+    background-color: #76abae;
+    cursor: pointer;
+  }
 }
 #react-word {
   color: #76abae;
@@ -224,8 +238,10 @@
   font-weight: 600;
 }
 #about-me p {
+  font-size: 17px;
   line-height: 1.2;
 }
+
 /* ---- SECTION: PROJECTS*/
 #projects {
   padding: 50px;
@@ -236,6 +252,11 @@
   align-items: center;
   gap: 30px;
   padding: 6rem 0;
+}
+.projects-headline {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
 }
 #project-card {
   width: 1280px;

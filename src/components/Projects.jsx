@@ -10,6 +10,7 @@ export default function Projects() {
 
   return (
     <section id="projects">
+      <h1 className="projects-headline">Portfolio</h1>
       <ProjectCard
         image={project1Img}
         title="Bookwave"
