@@ -278,7 +278,7 @@
 #project-card-btn {
   border: 0;
   border-bottom: 1px solid #3d6e70;
-  cursor: pointer;
+  /* cursor: pointer; */
   &:hover {
     border-bottom: 1px solid #76abae;
     background-color: red;
@@ -311,9 +311,19 @@
   height: 100px;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #222831;
+}
+::-webkit-scrollbar-thumb {
+  background: #76abae;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d6e70;
+}
 /* SECTION: MEDIA QUERY */
-/* TODO: media query za navbarot */
-
 /* 2xl */
 @media (max-width: 1536px) {
   .container {
