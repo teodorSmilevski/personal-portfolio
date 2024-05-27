@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <NavBar />
       <main id="main-header">
-        <div className="header-content">
+        <div className="header-content container">
           <img src={profilePic} alt="profilePicture" />
           <div className="main-text-content">
             <h1>
@@ -18,10 +18,13 @@ export default function Header() {
               in creating interactive and user-friendly web experiences
             </p>
             <div className="link-logos">
-              <a href="https://www.linkedin.com/in/teodor-smilevski-21860221b/">
+              <a
+                href="https://www.linkedin.com/in/teodor-smilevski-21860221b/"
+                target="_blank"
+              >
                 <i className="bx bxl-linkedin-square bx-md icon-w"></i>
               </a>
-              <a href="https://github.com/teodorSmilevski">
+              <a href="https://github.com/teodorSmilevski" target="_blank">
                 <i className="bx bxl-github bx-md icon-w"></i>
               </a>
             </div>

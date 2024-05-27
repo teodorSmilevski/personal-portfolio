@@ -1,36 +1,28 @@
 import ProjectCard from "./ProjectCard";
-import project1Img from "../assets/project-image-example.jpg";
-import project2Img from "../assets/project-image-example-2.png";
-import project3Img from "../assets/project-image-example-3.png";
+import project1Img from "../assets/project-bookwave.png";
+import project2Img from "../assets/project-stanche.png";
+
 export default function Projects() {
   const descriptions = [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, natus? Laboriosam a eius sequi sint praesentium fugiat quo, soluta reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, natus? Laboriosam a eius sequi sint praesentium fugiat quo, soluta reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, natus?",
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ipsa quae dolorem fugit incidunt aut maiores distinctio cum reiciendis consequuntur esse eos nisi repellendus veritatis, quos ducimus aliquam. Ipsum, officiis velit quasi excepturi cum obcaecati aliquid id qui. ",
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ipsa quae dolorem fugit incidunt aut maiores distinctio cum reiciendis consequuntur esse eos nisi repellendus veritatis, quos ducimus aliquam. Ipsum, officiis velit quasi excepturi cum obcaecati aliquid id qui. quos ducimus aliquam. Ipsum, officiis velit quasi excepturi cum obcaecati aliquid id qui ",
+    "Bookwave is a dynamic online bookstore built with React. It features a user-friendly interface where book enthusiasts can explore a wide range of books and comics. Users can filter books by genre, price, and language, and view comics detailed information by searching a marvel character, fetched from a public API. The application leverages React Hooks, ContextAPI, and clean CSS for a seamless and responsive browsing experience.",
+    "Stanche is a web application built with the MERN stack (MongoDB, Express.js, React, Node.js) designed for students to find roommates, student flats, or dormitories. Students can register to search for housing and compatible roommates, while property owners (sellers) can list and manage their flats. Key features include user registration and listing management. Stanche provides a seamless experience for students to find suitable living arrangements and for property owners to connect with potential renters.",
   ];
 
   return (
     <section id="projects">
       <ProjectCard
         image={project1Img}
-        title="Project1"
+        title="Bookwave"
         description={descriptions[0]}
-        githubLink="link"
-        liveLink="link"
+        githubLink="https://github.com/teodorSmilevski/bookwave"
+        liveLink="https://bookwave.netlify.app/"
       />
       <ProjectCard
         image={project2Img}
-        title="Project2"
+        title="Stanche"
         description={descriptions[1]}
-        githubLink="link"
-        liveLink="link"
-      />
-      <ProjectCard
-        image={project3Img}
-        title="Project3"
-        description={descriptions[2]}
-        githubLink="link"
-        liveLink="link"
+        githubLink="https://github.com/teodorSmilevski/stanche"
+        liveLink=""
       />
     </section>
   );

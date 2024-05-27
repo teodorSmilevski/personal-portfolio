@@ -14,12 +14,14 @@ export default function ProjectCard({
           <h1>{title}</h1>
           <p>{description}</p>
           <div id="project-card-links">
-            <a href={githubLink}>
+            <a href={githubLink} target="_blank">
               <i className="bx bxl-github bx-md icon-w"></i>
             </a>
-            <a href={liveLink}>
-              <button>Live Demo</button>
-            </a>
+            {liveLink && (
+              <a href={liveLink} target="_blank">
+                <button>Live Demo</button>
+              </a>
+            )}
           </div>
         </div>
       </div>

@@ -17,7 +17,10 @@ export default function Contact({ isActive }) {
           <i className="bx bx-envelope bx-md"></i>
           Send an email!
         </button>
-        <a href="https://www.linkedin.com/in/teodor-smilevski-21860221b/">
+        <a
+          href="https://www.linkedin.com/in/teodor-smilevski-21860221b/"
+          target="_blank"
+        >
           <button className="contact-btn msg-btn">
             <i className="bx bxl-linkedin-square bx-md "></i>
             Send a message!
