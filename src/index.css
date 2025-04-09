@@ -127,7 +127,6 @@
   background-color: #76abae;
 }
 /* ---- SECTION: HEADER */
-
 #main-header {
   background-color: #222831;
   width: 100%;
@@ -137,55 +136,65 @@
   justify-content: center;
   align-items: center;
 }
-.header-content img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 2px solid #76abae;
-  pointer-events: none;
-  place-self: center;
-}
+
 .header-content {
   width: 1280px;
-  gap: 20px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  justify-content: center;
   text-align: left;
+  padding: 0 2rem;
 }
+
 .main-text-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  max-width: 700px;
 }
+
 .main-text-content h1 {
-  font-size: 55px;
+  font-size: 48px;
   font-weight: 600;
+  color: #eeeeee;
 }
+
 .main-text-content p {
   font-size: 20px;
+  color: #c0c0c0;
 }
+
 .link-logos {
   display: flex;
   align-items: center;
+  justify-content: "center";
   gap: 0.5rem;
 }
-.download-cv {
-  width: auto;
-  height: auto;
-  padding: 0.5rem 1rem;
-  background-color: transparent;
-  border: 1px solid #3d6e70;
-  border-radius: 5rem;
 
-  &:hover {
-    background-color: #76abae;
-    cursor: pointer;
-  }
-}
-#react-word {
+.icon-w {
   color: #76abae;
-  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.icon-w:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.construction-note {
+  background-color: #393e46;
+  color: #eeeeee;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.construction-note a {
+  color: #76abae;
+  font-weight: 500;
+  margin: 0 4px;
+  text-decoration: underline;
 }
 
 /* SECTION: TECHNOLOGIES */
